@@ -1,0 +1,6 @@
+.background-yellow{
+    background-image: linear-gradient(to bottom, rgb(167, 103, 0), rgb(0,0,0,0), rgb(0,0,0,0));
+}
+#header{
+    font-family:'Courier New', Courier, monospace;
+}

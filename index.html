@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jagannath University</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+<header id="header">
+    <section class="flex justify-evenly items-center background-yellow">
+        <div>
+            <img class="h-50 w-40" src="images/jnulogo-01.png" alt="" srcset="">
+        </div>
+        <div>
+            <h1 class="text-5xl font-bold text-center writing">Jagannath University <br> <span class="text-3xl font-normal writing italic">Department of Law</span></h1>
+        </div>
+        <div>
+            <button id="dropdownHoverButton" data-dropdown-toggle="dropdownHover" data-dropdown-trigger="hover" class="text-white bg-gray-500 hover:bg-gray-700 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center" type="button">Theme<svg class="w-4 h-4 ml-2" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
+        <!-- Dropdown menu -->
+        <div id="dropdownHover" class="z-10 hidden divide-y divide-gray-100 rounded-lg shadow">
+            <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownHoverButton">
+              <li>
+                <a href="#" class="block px-4 py-2 dark:hover:text-white"><button id="color-black-btn" type="button" class="text-white bg-gray-200 hover:bg-gray-400 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2"><img src="images/dark-mode.png" class="h-5 w-5" alt="" srcset=""></button></a>
+              </li>
+              <li>
+                <a href="#" class="block px-4 py-2 dark:hover:text-white"><button id="color-white-btn" type="button" class="text-white bg-gray-200 hover:bg-gray-400 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2"><img src="images/dark-mode.png" class="h-5 w-5" alt="" srcset=""></button></a>
+              </li>
+            </ul>
+        </div>
+        </div>
+    </section>
+</header>
+    <div id="write" class="gap-5 grid grid-cols-3 justify-items-center p-5 mx-5"></div>
+    <script src="app.js"></script>
+    <script src="style.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.js"></script>
+
+</body>
+</html>
